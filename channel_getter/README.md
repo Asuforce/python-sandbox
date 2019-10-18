@@ -9,5 +9,9 @@ Get slack channle list.
 # Manage packages by poetry
 $ pip install poetry
 
+# Install dependencies
 $ poetry install
+
+# Run script
+$ poetry run channel_getter
 ```
