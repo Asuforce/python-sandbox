@@ -1,0 +1,6 @@
+# Files
+.envrc
+
+# Directorie
+dist/
+*.egg-info/
