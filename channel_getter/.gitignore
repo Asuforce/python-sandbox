@@ -1,0 +1,7 @@
+# Files
+.envrc
+
+# Directorie
+__pycache__
+dist/
+*.egg-info/

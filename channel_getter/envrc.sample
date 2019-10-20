@@ -1,0 +1,1 @@
+export SLACK_API_TOKEN="<your-slack-api-token>"

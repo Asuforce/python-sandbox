@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "channel_getter"
+version = "0.1.0"
+description = "Get slack channel list"
+authors = ["asuforce <owata.sn@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+slackclient = "^2.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^3.0"
+
+[tool.poetry.scripts]
+channel_getter = 'channel_getter:main'
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
